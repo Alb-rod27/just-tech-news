@@ -2,9 +2,9 @@ const User = require('./User');
 const Post = require('./Post');
 const Vote = require('./Vote');
 const Comment = require('./Comment');
-const commentRoutes = require('./comment-routes');
+// const commentRoutes = require('./Comment-routes');
 
-router.use('/comments', commentRoutes)
+// router.use('/comments', commentRoutes)
 
 // create associations
 User.hasMany(Post, {
